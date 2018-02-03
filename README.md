@@ -5,6 +5,6 @@ ASP.NET MVC, Identity2.0, Entity Framework 7, Azure SQL Databse, Razor,bootstrap
 # Features
 2 Step verification, OAuth, Local Login,Twilio Messaging Service,SendGrid Email confirmation,code first data migrations,Appointment scheduling interface, client and pet information storage, crud operations for data, MailChimp integration.
 # Contributers
-Isaac Holyk
-Mark Rea
-Adriana Chen
+Isaac Holyk,
+Mark Rea,
+and Adriana Chen
