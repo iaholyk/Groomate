@@ -1,0 +1,44 @@
+/**Generic
+###########################################
+**/
+a {
+    color:black;
+}
+a:hover {
+    color: white;
+}
+
+/**
+###########################################
+**/
+#about h2, #service h2{
+font-family: 'Permanent Marker', cursive;
+}
+
+#about{
+  background-image: url("./img/dp9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 80vh !important;
+}
+
+.carousel-content, .carousel-content2 {
+  position: absolute;
+  top: 10%;
+  right: 6%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.carousel-content2 {
+  left: 6%;
+ }
+
+#request{
+  background: linear-gradient(to right, #f4f0e8 , #dbb472);
+}
