@@ -45,14 +45,20 @@
             <li class="nav-item active">
               <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#about">About</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#service">Service</a>
             </li>
+             <li class="nav-item active">
+              <a class="nav-link" href="#subscribe">Price</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link px-3" href="#free-trial">Free Trial</a>
+            </li>
             <li class="nav-item">
-              <a class="nav-link" href="#request">Request</a>
+              <a class="nav-link" href="#request">Contact</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -65,9 +71,7 @@
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
-            </li>
+
           </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control" type="search" placeholder="Search" aria-label="Search">
@@ -218,7 +222,7 @@
   </div>
   </section>
 
-  <section id="subscribe" class="bg-light">
+  <section id="subscribe" class="bg-light py-5">
     <div class="container text-center">
       <div class="row">
         <div class="ml-auto mr-auto">
@@ -278,25 +282,92 @@
           </div>
       </div>
     </div>
+    </section>
+
+    <section id="free-trial" class="text-center py-5">
+      <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 offset-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title display-4 pt-3">15-day free trial</h4>
+            <p class="px-5 pt-3">Try every feature and add unlimited users. No credit card required.</p>
+          </div>
+          <form class="p-5">
+            <div class="form-group">
+              <input type="text" class="form-control" id="firstname" placeholder="firstname">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="lastname" placeholder="lastname">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password">
+            </div>
+
+             <div class="form-group">
+              <!--<label for="exampleFormControlSelect1">location</label>-->
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>address</option>
+                <option>oregon</option>
+                <option>washington</option>
+                <option>california</option>
+                <option>new york</option>
+              </select>
+            </div>
+            <div class="form-group border text-left mx-5">
+              <div class="form-check px-3 m-3">
+                <input type="checkbox" class="form-check-input" id="grommer">
+                <label class="form-check-label p-0" for="grommer">I am a groommer</label>
+              </div>
+            </div>
+            <div class="form-group border text-left mx-5">
+              <div class="form-check px-3 m-3">
+                <input type="checkbox" class="form-check-input" id="pet-owner">
+                <label class="form-check-label p-0" for="pet-owner">I am a pet owner</label>
+              </div>
+            </div>
+
+            <div class="form-group border text-left mx-5 mt-5">
+              <div class="form-check px-3 m-3">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label p-0" for="exampleCheck1">I am not a robot</label>
+              </div>
+            </div>
+
+            <div class="form-group border text-left mx-5">
+              <div class="form-check px-3 m-3">
+                 <input type="checkbox" class="form-check-input p-0" id="privacy">
+                 <label class="form-check-label p-0" for="privacy">
+                  I have read and I agree to the <a href="#">terms of use</a>, <a href="#">privacy policy</a> and <a
+                      href="#">offer details</a>
+                  </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-lg btn-outline-warning ml-auto mr-auto px-5 mt-5">Get Start</button>
+          </form>
+          <!--<ul class="list-group list-group-flush">-->
+            <!--<li class="list-group-item"></li>-->
+            <!--<li class="list-group-item">Dapibus ac facilisis in</li>-->
+            <!--<li class="list-group-item">Vestibulum at eros</li>-->
+          <!--</ul>-->
+          <!--<div class="card-body">-->
+            <!--<a href="#" class="card-link">Card link</a>-->
+            <!--<a href="#" class="card-link">Another link</a>-->
+          <!--</div>-->
+        </div>
+       </div>
+      </div>
+    </div>
   </section>
 
   <!-- footer -->
-  <section id="footer" class="mb-3 bg-light">
-    <div id="header">
-     <div class="jumbotron jumbotron-fluid">
-       <div class="container text-center">
-        <!--<p class="lead mb-4 mt-3">We rescue pianos and put them on the street for everybody to enjoy.</p>-->
-          <div class="btn-group-lg btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-outline-warning px-5" data-toggle="modal" data-target="#register">
-              Join In As A Customer</button>
-            <button type="button" class="btn btn-outline-secondary px-5">Join In As A Grommer</button>
-          </div>
-       </div>
-     </div>
-    </div>
+  <section id="footer" class="p-5">
    <!-- signup form -->
-    <div class="container">
-    <div class="row pb-4 text-muted">
+    <div class="container pt-5">
+    <div class="row pb-4">
       <div class="col-12 col-md-5">
         <p><strong>About Grommates</strong></p>
         <p>Find out about our organization,mission, and our artists.</p>
@@ -312,18 +383,17 @@
       </div>
     </div>
     <!-- /signup form -->
-      <div class="row">
-      <div class="col-12 col-md-6 text-left">
-        <small>&copy; 2017 &amp; Grommates</small>
+      <div class="row py-4">
+
+      <div class="col-12 col-md-5 mr-auto">
+         <span class="rounded-circle bg-warning col-md-4 p-2 mr-sm-3"><i class="fab fa-twitter"></i></span>
+         <span class="rounded-circle bg-warning col-md-4 p-2 mr-sm-3"><i class="fab fa-pinterest"></i></span>
+         <span class="rounded-circle bg-warning col-md-4 p-2 mr-sm-3"><i class="fab fa-instagram"></i></span>
       </div>
-      <div class="col-12 col-md-6 text-right">
-         <a class="nav-item nav-link text-right col-sm-12" href="#">
-            <i class="fab fa-twitter-square"></i>&nbsp;&nbsp;&nbsp;
-            <i class="fab fa-pinterest-square"></i>&nbsp;&nbsp;&nbsp;
-            <i class="fab fa-instagram"></i>
-          </a>
-      </div>
-      </div>
+        <div class="col-12 col-md-5 mb-sm-2">
+         <p>&copy; 2017 &amp; Grommates</p>
+        </div>
+    </div>
     </div>
   </section><!-- /footer -->
 

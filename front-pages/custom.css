@@ -2,10 +2,10 @@
 ###########################################
 **/
 a {
-    color:black;
+    color:#000;
 }
 a:hover {
-    color: white;
+    color: gray;
 }
 
 /**
@@ -40,5 +40,17 @@ font-family: 'Permanent Marker', cursive;
  }
 
 #request{
-  background: linear-gradient(to right, #f4f0e8 , #dbb472);
+  background: linear-gradient(to right, #f4ecd2 , #d6c182);
+}
+
+#free-trial {
+    background-color: #f4ecd2;
+}
+
+#free-trial .card {
+    padding: 10px;
+    box-shadow: 15px 18px 68px #ffc107;
+}
+#footer {
+    background-color: #d6c182;
 }
